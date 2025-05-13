@@ -140,8 +140,8 @@ def main():
     submit_button = Button(root, text="Submit", command=lambda:submit(mode.get(), entry.get()))
     submit_button.pack()
 
-    img1 = Image.open('aberto.png').resize((50, 50))
-    img2 = Image.open('fechado.png').resize((50, 50))
+    img1 = Image.open('Icons/aberto.png').resize((50, 50))
+    img2 = Image.open('Icons/fechado.png').resize((50, 50))
 
 
     aberto = ImageTk.PhotoImage(img1)
