@@ -125,13 +125,13 @@ def submit(mode, entry):
     elif mode == 1:
         print("decrpyt")
         decrypt(entry)
-    img = Image.open(entry)
-    img.show()
+
     
 
 
 def main():
     root = Tk()
+    root.title("Image scrambler")
     root.geometry('600x300')
 
     entry = Entry(root, width=50)
